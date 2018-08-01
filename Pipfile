@@ -24,6 +24,7 @@ django-tz-detect = "*"
 raven = "*"
 django-oauth-toolkit = "*"
 django-emoji-picker = "*"
+zappa = "*"
 
 [dev-packages]
 ansible = "*"
