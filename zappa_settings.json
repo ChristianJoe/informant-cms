@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "aws_region": "eu-central-1",
+        "django_settings": "app.main.settings",
+        "project_name": "informant-cms",
+        "runtime": "python3.6",
+        "s3_bucket": "informant-cms-zappa-dev",
+        "remote_env": "s3://wdr-informant-cms-env/master/env.json",
+        "vpc_config" : {
+            "SubnetIds": [
+                "subnet-f93ff784",
+                "subnet-ff209db2",
+                "subnet-7c2abc17"
+            ],
+            "SecurityGroupIds": ["sg-802abcec"]
+        }
+    }
+}
